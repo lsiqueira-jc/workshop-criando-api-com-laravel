@@ -5,12 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Agenda extends Model
+class Casa extends Model
 {
     use HasFactory;
-
-    protected $fillable = [
-        'nome',
-        'telefone'
-    ];
 }

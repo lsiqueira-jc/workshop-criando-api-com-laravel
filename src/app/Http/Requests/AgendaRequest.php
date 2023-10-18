@@ -47,8 +47,8 @@ class AgendaRequest extends FormRequest
     public function rules()
     {
         return [
-            'nome'   => 'required',
-            'telefone'  => 'required|unique:agendas',
+           // 'nome'   => 'required',
+            // 'telefone'  => 'required|unique:agendas',
         ];
     }
 }

@@ -15,8 +15,8 @@ class CreateAgendasTable extends Migration
     {
         Schema::create('agendas', function (Blueprint $table) {
             $table->id();
-            $table->string('nome')->nullable();
-            $table->string('telefone')->nullable();
+            // $table->string('nome')->nullable();
+            // $table->string('telefone')->nullable();
             $table->timestamps();
         });
     }

@@ -1,23 +1,33 @@
-# Treinamento API com Laravel
+# Workshop API com Laravel
 
+## Diretórios
 
-## Siatema de agenda
-- Fluxo 
-- requisitos para rodar o Sistema 
-- Docker
-- Migration 
-- Model
-- Routes
-- Controller
-  
-- Endpoints | Status code
-  - Cadastrar 
-  - Buscar 
-  - Atualizar 
-  - Deletar 
+- src = Aplicação wordpress
+- db = Arquivos do banco de dados (Local!!! Não subir para o git)
+- DockerConfig = Arquivos de configuração do Docker
 
-- Validação dos dados 
-  
-- Autorização 
+## Como rodar
 
+### Levanta o ambiente (na raiz)
 
+```bash
+docker-compose up --build -d
+```
+
+### Acessando a aplicação
+
+```bash
+localhost
+```
+
+### Acessando o container da aplicação
+
+```bash
+docker exec -it agenda bash
+```
+
+### Acessando o container do Banco de Dados
+
+```bash
+docker exec -it db_agenda bash
+```

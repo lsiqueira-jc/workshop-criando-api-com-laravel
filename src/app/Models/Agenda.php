@@ -10,7 +10,7 @@ class Agenda extends Model
     use HasFactory;
 
     protected $fillable = [
-        'nome',
-        'telefone'
+        // 'nome',
+        // 'telefone'
     ];
 }
